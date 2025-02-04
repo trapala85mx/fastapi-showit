@@ -95,6 +95,4 @@ A continuación, se presentan los issues que los estudiantes deben resolver:
 
 ## Cómo Empezar
 1. Clona este repositorio.
-2. Instala las dependencias con `pip install -r requirements.txt`.
-3. Ejecuta el servidor con `uvicorn main:app --reload`.
-4. Resuelve los issues en el orden indicado.
+2. Resuelve los issues en el orden indicado.
