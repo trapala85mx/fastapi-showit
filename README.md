@@ -39,11 +39,11 @@ A continuación, se presentan los issues que los estudiantes deben resolver:
 
 ### **Nivel 1: Fundamentos**
 1. **Crear un endpoint para listar clientes**:
-   - Endpoint: `GET /clientes`
+   - Endpoint: `GET /customers`
    - Retorna una lista de clientes almacenados en la base de datos.
 
 2. **Crear un endpoint para agregar un cliente**:
-   - Endpoint: `POST /clientes`
+   - Endpoint: `POST /customers`
    - Recibe un JSON con los datos del cliente y los almacena en la base de datos.
 
 3. **Validar los datos de entrada con Pydantic**:
@@ -53,11 +53,11 @@ A continuación, se presentan los issues que los estudiantes deben resolver:
 
 ### **Nivel 2: Intermedio**
 4. **Implementar un endpoint para actualizar un cliente**:
-   - Endpoint: `PUT /clientes/{id}`
+   - Endpoint: `PUT /customers/{id}`
    - Permite actualizar los datos de un cliente existente.
 
 5. **Crear un endpoint para eliminar un cliente**:
-   - Endpoint: `DELETE /clientes/{id}`
+   - Endpoint: `DELETE /customers/{id}`
    - Elimina un cliente de la base de datos.
 
 6. **Agregar paginación a la lista de clientes**:
@@ -68,8 +68,8 @@ A continuación, se presentan los issues que los estudiantes deben resolver:
 ### **Nivel 3: Avanzado**
 7. **Crear un modelo y endpoints para gestionar facturas**:
    - Endpoints:
-     - `POST /facturas`: Crear una nueva factura.
-     - `GET /facturas`: Listar todas las facturas.
+     - `POST /invoices`: Crear una nueva factura.
+     - `GET /invoices`: Listar todas las facturas.
    - Cada factura debe estar asociada a un cliente.
 
 8. **Implementar autenticación básica**:
@@ -82,7 +82,7 @@ A continuación, se presentan los issues que los estudiantes deben resolver:
 
 ### **Nivel 4: Experto**
 10. **Agregar un endpoint para calcular el total de una factura**:
-    - Endpoint: `GET /facturas/{id}/total`
+    - Endpoint: `GET /invoices/{id}/total`
     - Calcula el total de una factura sumando los montos de las transacciones asociadas.
 
 11. **Optimizar el rendimiento de la API**:
